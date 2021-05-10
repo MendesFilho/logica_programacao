@@ -5,10 +5,12 @@ Algoritmo "primeiroPrograma"
 // Data atual  : 08/05/2021
 Var
 // Seção de Declarações das variáveis 
-
+ msg:caractere
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-  Escreva("Olá, revendo minha lógica!!")
+  msg <- "Usando minha variávevel de texto"
+  Escreval("Olá, revendo minha lógica de programação!!")
+  Escreval(msg)
 
 Fimalgoritmo
