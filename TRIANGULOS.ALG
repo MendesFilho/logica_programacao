@@ -25,7 +25,7 @@ TRI <- (L1 < L2+L3) E (L2 < L1 + L3) E (L3 < L1 + L2)
 EQ <- (L1 = L2) E (L2 = L3)
 ES <- (L1 <> L2) E (L2 <> L3) E (L1 <> L3)
 
-Escreval("E triangulo? ",TRI)
+Escreval("Pode formar um triangulo? ",TRI)
 Escreval("O triangulo e equilatero?? ", EQ)
 Escreval("O trianguilo e escaleno?? ", ES)
 
