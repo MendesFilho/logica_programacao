@@ -1,7 +1,7 @@
 Algoritmo "viajarDisney"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Descrição   : Se eu tiver dinheiro vou viajar para Disney
-// Autor(a)    : Melquisedec
+// Descrição   : viajar para Disney
+// Autor(a)    : Melquisedec Mendes
 // Data atual  : 24/05/2021
 Var
 // Seção de Declarações das variáveis 
@@ -12,9 +12,9 @@ Inicio
    Escreval("Tenho dinheiro para viajar para Disney? [S/N]")
    Leia(resposta)
    Se(resposta = "S") entao
-    Escreval("Partiu Disney!")
+    Escreval("Partiu Disney!!!")
    Senao
-    Escreval("Precisa trabalhar mais!")
+    Escreval("Precisa trabalhar mais! Talvez no mes que vem!")
    Fimse
 
 Fimalgoritmo
