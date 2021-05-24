@@ -16,6 +16,9 @@ Inicio
   Escreval("Em que ano você nasceu?")
   Leia(anoNascimento)
   minhaIdade <- AnoAtual - anoNascimento
-  Escreval("Você tem ",minhaIdade," anos.")
+  Escreval("Em ", anoAtual, " voce tera ", minhaIdade, " anos.")
+  Se(minhaIdade >= 21) entao
+  Escreval("E você ja tera atingido a maioridade.")
+  Fimse
 
 Fimalgoritmo
