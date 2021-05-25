@@ -1,6 +1,6 @@
 Algoritmo "carteiramotorista"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Descrição   : Verifica se o usuario já pode tirar carteira de motorista
+// Descrição   : Verifica se o usuario pode tirar carteira de motorista
 // Autor(a)    : Melquisedec Mendes
 // Data atual  : 24/05/2021
 Var
@@ -22,6 +22,10 @@ Inicio
      Escreval("IDADE:",verificaIdade)
      Escreval("APTO A TIRAR CARTEIRA")
      Escreval("-------------- ---------")
+    Senao
+     Escreval("------- STATUS ---------")
+     Escreval("IDADE:",verificaIdade)
+     Escreval("NAO APTO A TIRAR CARTEIRA")
+     Escreval("-------------- ---------")
     Fimse
-    
 Fimalgoritmo
