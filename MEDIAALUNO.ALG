@@ -19,12 +19,12 @@ Inicio
  media <- (n1 + n2) / 2
  Se(media >= 7)entao
    Escreval("-------------------------")
-   Escreval("MEDIA:",media)
+   Escreval("MEDIA:",media:4:2)
    Escreval("APROVADO")
    Escreval("-------------------------")
  Senao
    Escreval("-------------------------")
-   Escreval("MEDIA:",media)
+   Escreval("MEDIA:",media4:2)
    Escreval("REPROVADO")
    Escreval("-------------------------")
  Fimse
