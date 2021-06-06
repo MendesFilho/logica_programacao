@@ -15,9 +15,35 @@ Inicio
    Escreval("Qual a sua altura? Ex. 1.60")
    Leia(altura)
    imc <- massa / (altura * altura)
-   Se(imc >= 18.5 ) e (imc <= 24.9) entao
-      Escreval("Seu IMC é :",imc:5:2,", parabens, voce esta no seu peso ideal.")
+   Escreval("IMC:",imc)
+   Se(imc < 17) entao
+   Escreval("Muito abaixo do peso")
    Senao
-      Escreval("Voce nao esta na faixa de peso ideal.")
+        Se(imc >= 17) e (imc < 18.5) entao
+           Escreval("Abaixo do peso")
+        Senao
+             Se(imc >= 18.5) e (imc < 25) entao
+                Escreval("Peso ideal")
+             Senao
+                Se(imc > 25) e (imc <30) entao
+                   Escreval("Sobrepeso")
+                Senao
+                     Se(imc > 30) e (imc <= 35) entao
+                       Escreval("Obesidade")
+                     Senao
+                          Se(imc >= 30) e (imc < 35) entao
+                             Escreval("Obesidade")
+                          Senao
+                               Se(imc >= 35) e (imc < 40) entao
+                                  Escreval("Obesidade Severa")
+                               Senao
+                                  Escreval("Obesidade Morbida")
+                               Fimse
+                          Fimse
+                     Fimse
+                Fimse
+             Fimse
+        
+        Fimse
    Fimse
 Fimalgoritmo
